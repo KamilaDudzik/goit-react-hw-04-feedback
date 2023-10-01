@@ -1,0 +1,20 @@
+.buttonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 5px 10px;
+    transition-duration: 250ms;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(118, 169, 231, 1);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(118, 169, 231, 1);
+    box-shadow: 0px 0px 6px 1px rgba(118, 169, 231, 1);
+}
